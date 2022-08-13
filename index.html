@@ -21,41 +21,41 @@
 		/>
 		<!-- fonts end -->
 		<link rel="stylesheet" href="./css/main.min.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
+	
 	</head>
 
 	<body data-page>
 		<!-- шапка -->
 		<header class="header">
-			<div class="container header-container">
-				<a class="logo logo-mg link" href="./index.html">Web<span class="logo-light">Studio</span>
+			<div class="container header__container">
+				<a class="logo header__logo link" href="./index.html">Web<span class="header__logo-light">Studio</span>
 				</a>
-				<nav class="header-nav">
-					<ul class="header-list list">
-						<li class="header-item">
-							<a class="header-link current link" href="./index.html">Студия</a>
+				<nav class="nav">
+					<ul class="nav__list list">
+						<li class="nav__item">
+							<a class="nav__link nav__link--current link" href="./index.html">Студия</a>
 						</li>
-						<li class="header-item">
-							<a class="header-link link" href="./portfolio.html">Портфолио</a>
+						<li class="nav__item">
+							<a class="nav__link link" href="./portfolio.html">Портфолио</a>
 						</li>
-						<li class="header-item">
-							<a class="header-link link" href="#">Контакты</a>
+						<li class="nav__item">
+							<a class="nav__link link" href="#">Контакты</a>
 						</li>
 					</ul>
 				</nav>
-				<ul class="header-list list">
-					<li class="header-item">
-						<a class="header-contacts-link link" href="mailto:info@devstudio.com">
-							<svg class="header-contacts-icon" width="16px" height="12px">
+				<ul class="header-contacts list">
+					<li class="header-contacts__item">
+						<a class="header-contacts__link link" href="mailto:info@devstudio.com">
+							<svg class="header-contacts__icon" width="16px" height="12px">
 								<use href="./images/icons.svg#mail"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
 
-					<li class="header-item">
-						<a class="header-contacts-link link" href="tel:+380961111111">
-							<svg class="header-contacts-icon" width="10px" height="16px">
+					<li class="header-contacts__item">
+						<a class="header-contacts__link link" href="tel:+380961111111">
+							<svg class="header-contacts__icon" width="10px" height="16px">
 								<use href="./images/icons.svg#phone"></use>
 							</svg>
 							+38 096 111 11 11
@@ -69,8 +69,8 @@
 			<!-- секция герой -->
 			<section class="hero section">
 				<div class="container">
-					<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-					<button type="button" data-modal-open class="hero-btn btn">Заказать услугу</button>
+					<h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+					<button type="button" data-modal-open class="hero__btn btn">Заказать услугу</button>
 				</div>
 			</section>
 			<!-- наши особенности -->
@@ -78,47 +78,47 @@
 				<div class="container peculiarities-container">
 					<h2 class="visually-hidden">особенности</h2>
 					<ul class="peculiarities-list list">
-						<li class="peculiarities-item">
-							<div class="peculiarities-icon">
+						<li class="peculiarities-list__item">
+							<div class="peculiarities-list__icon">
 								<svg width="70px" height="70px">
 									<use href="./images/icons.svg#antenna"></use>
 								</svg>
 							</div>
-							<h3 class="peculiarities-h">Внимание к деталям</h3>
-							<p class="peculiarities-p">
+							<h3 class="peculiarities-list__h">Внимание к деталям</h3>
+							<p class="peculiarities-list__p">
 								Идейные соображения, а также начало повседневной работы по формированию позиции.
 							</p>
 						</li>
-						<li class="peculiarities-item">
-							<div class="peculiarities-icon">
+						<li class="peculiarities-list__item">
+							<div class="peculiarities-list__icon">
 								<svg width="70px" height="70px">
 									<use href="./images/icons.svg#clock"></use>
 								</svg>
 							</div>
-							<h3 class="peculiarities-h">Пунктуальность</h3>
-							<p class="peculiarities-p">
+							<h3 class="peculiarities-list__h">Пунктуальность</h3>
+							<p class="peculiarities-list__p">
 								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 							</p>
 						</li>
-						<li class="peculiarities-item">
-							<div class="peculiarities-icon">
+						<li class="peculiarities-list__item">
+							<div class="peculiarities-list__icon">
 								<svg width="70px" height="70px">
 									<use href="./images/icons.svg#diagram"></use>
 								</svg>
 							</div>
-							<h3 class="peculiarities-h">Планирование</h3>
-							<p class="peculiarities-p">
+							<h3 class="peculiarities-list__h">Планирование</h3>
+							<p class="peculiarities-list__p">
 								Равным образом консультация с широким активом в значительной степени обуславливает.
 							</p>
 						</li>
-						<li class="peculiarities-item">
-							<div class="peculiarities-icon">
+						<li class="peculiarities-list__item">
+							<div class="peculiarities-list__icon">
 								<svg width="70px" height="70px">
 									<use href="./images/icons.svg#astronaut"></use>
 								</svg>
 							</div>
-							<h3 class="peculiarities-h">Современные технологии</h3>
-							<p class="peculiarities-p">
+							<h3 class="peculiarities-list__h">Современные технологии</h3>
+							<p class="peculiarities-list__p">
 								Значимость этих проблем настолько очевидна, что реализация плановых заданий.
 							</p>
 						</li>
@@ -128,24 +128,24 @@
 			<!-- Чем мы занимаемся -->
 			<section class="examples section">
 				<div class="container">
-					<h2 class="examples-title">Чем мы занимаемся</h2>
+					<h2 class="examples__title">Чем мы занимаемся</h2>
 					<ul class="examples-list list cards-set">
-						<li class="examples-item cards-set-item">
-							<img class="examples-img" src="./images/box1.jpg" alt="Десктопные приложения" width="370" height="294" />
+						<li class="examples-list__item cards-set-item">
+							<img class="examples-list__img" src="./images/box1.jpg" alt="Десктопные приложения" width="370" height="294" />
 							
-								<p class="text-label">Десктопные приложения</p>
-							
-						</li>
-						<li class="examples-item cards-set-item">
-							<img class="examples-img" src="./images/box2.jpg" alt="Мобильные приложения" width="370" height="294" />
-							
-								<p class="text-label">Мобильные приложения</p>
+								<p class="examples-list__label">Десктопные приложения</p>
 							
 						</li>
-						<li class="examples-item cards-set-item">
-							<img class="examples-img" src="./images/box3.jpg" alt="Дизайнерские решения" width="370" height="294" />
+						<li class="examples-list__item cards-set-item">
+							<img class="examples-list__img" src="./images/box2.jpg" alt="Мобильные приложения" width="370" height="294" />
 							
-								<p class="text-label">Дизайнерские решения</p>
+								<p class="examples-list__label">Мобильные приложения</p>
+							
+						</li>
+						<li class="examples-list__item cards-set-item">
+							<img class="examples-list__img" src="./images/box3.jpg" alt="Дизайнерские решения" width="370" height="294" />
+							
+								<p class="examples-list__label">Дизайнерские решения</p>
 							
 						</li>
 					</ul>
@@ -154,9 +154,9 @@
 			<!-- наша команда -->
 			<section class="team section">
 				<div class="container">
-					<h2 class="team-title">Наша команда</h2>
+					<h2 class="team__title">Наша команда</h2>
 					<ul class="team-list list cards-set">
-						<li class="team-item cards-set-item">
+						<li class="team__item cards-set-item">
 							<img
 								class="team-img"
 								src="./images/teamphoto/img1.jpg"
@@ -200,7 +200,7 @@
 							</div>
 						</li>
 
-						<li class="team-item cards-set-item">
+						<li class="team__item cards-set-item">
 							<img
 								class="team-img"
 								src="./images/teamphoto/img2.jpg"
@@ -243,7 +243,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="team-item cards-set-item">
+						<li class="team__item cards-set-item">
 							<img
 								class="team-img"
 								src="./images/teamphoto/img3.jpg"
@@ -286,7 +286,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="team-item cards-set-item">
+						<li class="team__item cards-set-item">
 							<img
 								class="team-img"
 								src="./images/teamphoto/img4.jpg"
